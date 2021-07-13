@@ -136,7 +136,20 @@ hr{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
 }
+.course{
+    width: 253px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+.course .course-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .course .course-banner img{
+    padding-top: 10px;
     width: 224px;
     height: 104px;
 }
